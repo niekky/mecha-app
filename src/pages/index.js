@@ -67,7 +67,7 @@ export default function Home() {
               <div>Founded in 1969 at a conference in Santa Barbara, CA, along with the adopted draft Plan Espiritual de Aztlán (Spiritual Plan of Aztlán)</div>
               <div>Founded based on the belief that tying the students into the large network of activists could help fight against oppression and racism and lead to liberation of Chicano people.</div>
               <div>Improved further institutionalization for the young Mexican American, which motivated Chicanos to attend to school and pursue higher education.</div>
-              <div className='italic'>"M.E.Ch.A. played a part in the development of Chicana and Chicano student activism both in the university and in Chicano communities at large. M.E.Ch.A. has influenced the curriculum for Chicanas and Chicanos and has many times succeeded in improving the social conditions in the barrio" - Carlos Munoz Jr</div>
+              <div className='italic'>&quot;M.E.Ch.A. played a part in the development of Chicana and Chicano student activism both in the university and in Chicano communities at large. M.E.Ch.A. has influenced the curriculum for Chicanas and Chicanos and has many times succeeded in improving the social conditions in the barrio&quot; - Carlos Munoz Jr</div>
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ export default function Home() {
         <div className='flex-col text-center text-2xl space-y-2'>
           <div>Reach out to M.E.Ch.A. if you have any interest or want to support and improve the organization as well as the Chicano community as a whole</div>
           <div>Your help is the big contribution to the bright future of Chicanos</div>
-          <div className='italic text-xl'>"Of the community, for the community"</div>
+          <div className='italic text-xl'>&quot;Of the community, for the community&quot;</div>
         </div>
       </div>
 
