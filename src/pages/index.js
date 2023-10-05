@@ -12,23 +12,23 @@ export default function Home() {
         
         <div className="flex flex-col w-full h-1/2 bg-[url('/img/intro.png')] items-center justify-center transition ease-in-out duration-500 hover:scale-110">
           <div className='flex flex-col w-full h-full backdrop-brightness-50 backdrop-blur-sm transition ease-in-out duration-500 hover:backdrop-blur-none items-center justify-center space-y-8'>
-            <div className='flex-col text-6xl 2xl:text-7xl font-bold text-center'>M.E.Ch.A.</div>
-            <div className='flex-col text-4xl 2xl:text-5xl font-light text-center'>Movimiento Estudiantil Chicano de Aztlán</div>
+            <div className='flex-col text-white text-6xl 2xl:text-7xl font-bold text-center'>M.E.Ch.A.</div>
+            <div className='flex-col text-white text-4xl 2xl:text-5xl font-light text-center'>Movimiento Estudiantil Chicano de Aztlán</div>
           </div>
           
         </div>
 
         <div className='flex flex-col w-full h-1/2 bg-orange-900 items-center justify-center px-32 xl:px-32 2xl:px-96 space-y-5'>
-          <div className='flex-col text-5xl font-bold '>About us</div>
-          <div className='flex-col text-center text-lg'>Movimiento Estudiantil Chicano de Aztlán (Chicano Student Movement of Aztlán) is a student organization founded to raise Mexican American empowerment by using political action and embrace the Mexican culture, history, education, and political/social consciousness for young Chicano. M.E.Ch.A. is the large Chicano organization which is active and spread around the United States. Not only does it raise awareness and political empowerment but also M.E.Ch.A. supports the Mexican American youth in academics through leadership and organizational activities.</div>
+          <div className='flex-col text-white text-5xl font-bold '>About us</div>
+          <div className='flex-col text-white text-center text-lg'>Movimiento Estudiantil Chicano de Aztlán (Chicano Student Movement of Aztlán) is a student organization founded to raise Mexican American empowerment by using political action and embrace the Mexican culture, history, education, and political/social consciousness for young Chicano. M.E.Ch.A. is the large Chicano organization which is active and spread around the United States. Not only does it raise awareness and political empowerment but also M.E.Ch.A. supports the Mexican American youth in academics through leadership and organizational activities.</div>
         </div>
 
       </div>
 
       <div className="flex flex-col w-full h-48 bg-[url('/img/switch.png')]">
         <div className='flex flex-col w-full h-full items-center justify-center backdrop-brightness-50 backdrop-blur-sm'>
-          <div className='flex-col text-3xl font-bold'>La Union Hace La Fuerza!</div>
-          <div className='flex-col text-xl'>Unity makes strength</div>
+          <div className='flex-col text-white text-3xl font-bold'>La Union Hace La Fuerza!</div>
+          <div className='flex-col text-white text-xl'>Unity makes strength</div>
         </div>
       </div>
 
@@ -36,11 +36,11 @@ export default function Home() {
 
         <div className='w-1/2 p-12 2xl:p-24'>
           <div className='flex-col h-full bg-orange-700 p-12 2xl:p-24 space-y-12 rounded-lg'>
-            <div className='text-5xl font-bold'>How big we are?</div>
+            <div className='text-5xl font-bold text-white '>How big we are?</div>
             <div className='flex-col space-y-6'>
-              <div className='text-2xl'>M.E.Ch.A. is active and widely available around the United States including both the West and the East of the States, with more than 400 chapters in universities, community colleges, and high schools.</div>
-              <div className='text-2xl'>M.E.Ch.A. in different campuses: </div>
-              <div className='text-2xl font-bold'>
+              <div className='text-2xl text-white'>M.E.Ch.A. is active and widely available around the United States including both the West and the East of the States, with more than 400 chapters in universities, community colleges, and high schools.</div>
+              <div className='text-2xl text-white'>M.E.Ch.A. in different campuses: </div>
+              <div className='text-2xl font-bold text-white'>
                 <div>- Chicanx/Latinx community (UCSB)</div>
                 <div>- ARIZONA MECHA (U of A)</div>
                 <div>- MEChA de UCLA</div>
@@ -56,7 +56,7 @@ export default function Home() {
         <div className='flex-col w-1/2 p-12 2xl:p-32 justify-center items-center space-y-3'>
           <div className='transition ease-in-out duration-500 hover:scale-110'> 
             <div className="bg-[url('/img/maps.png')] bg-cover h-[500px] rounded-lg"></div>
-            <div className='flex justify-center items-center font-bold text-center'>MEChA and earlier Chicano student organizations 1967-2012, collected by Estrada</div>
+            <div className='flex justify-center items-center font-bold text-center text-white'>MEChA and earlier Chicano student organizations 1967-2012, collected by Estrada</div>
           </div>
           
         </div>
@@ -64,9 +64,9 @@ export default function Home() {
       
       <div className='flex w-full h-fit bg-orange-900'>
         <div className='flex-col h-fit w-1/2 bg-orange-900 px-24 py-24 2xl:px-48 2xl:py-24 space-y-12'>
-          <div className='text-4xl 2xl:text-5xl font-bold'>History of M.E.Ch.A</div>
+          <div className='text-4xl 2xl:text-5xl font-bold text-white'>History of M.E.Ch.A</div>
           <div className='flex-col space-y-6'>
-            <div className='text-lg 2xl:text-xl space-y-6'>
+            <div className='text-lg 2xl:text-xl space-y-6 text-white'>
               <div>Founded in 1969 at a conference in Santa Barbara, CA, along with the adopted draft Plan Espiritual de Aztlán (Spiritual Plan of Aztlán)</div>
               <div>Founded based on the belief that tying the students into the large network of activists could help fight against oppression and racism and lead to liberation of Chicano people.</div>
               <div>Improved further institutionalization for the young Mexican American, which motivated Chicanos to attend to school and pursue higher education.</div>
@@ -79,7 +79,7 @@ export default function Home() {
           <div className='flex-col w-full h-full px-6 py-12 2xl:px-12 2xl:py-24 bg-orange-700 justify-center items-center space-y-3 rounded-lg'>
             <div className='transition ease-in-out duration-500 hover:scale-105 rounded-lg'>
               <div className="bg-[url('/img/el-plan.jpg')] bg-cover h-[500px] rounded-lg"></div>
-              <div className='flex justify-center items-center text-center font-bold'>Chicano activists rally in front of Campbell Hall in a photo that now appears on the wall of North Hall on the UC Santa Barbara campus.</div>
+              <div className='flex justify-center items-center text-center font-bold text-white'>Chicano activists rally in front of Campbell Hall in a photo that now appears on the wall of North Hall on the UC Santa Barbara campus.</div>
             </div>
             
           </div>
@@ -89,14 +89,14 @@ export default function Home() {
 
       <div className="flex flex-col w-full h-48 bg-[url('/img/switch.png')] bg-cover">
         <div className='flex flex-col w-full h-full items-center justify-center backdrop-brightness-50 backdrop-blur-sm'>
-        <div className='flex-col text-3xl font-bold'>Por la Raza habla el espiritu</div>
-        <div className='flex-col text-xl'>The spirit speaks for the Race</div>
+        <div className='flex-col text-3xl font-bold text-white'>Por la Raza habla el espiritu</div>
+        <div className='flex-col text-xl text-white'>The spirit speaks for the Race</div>
         </div>
       </div>
 
       <div className='flex-col flex w-full  bg-orange-800 items-center space-y-16 px-48 py-24'>
-        <div className='text-6xl font-bold'>M.E.Ch.A. Goals</div>
-        <div className='text-xl text-center space-y-6'>
+        <div className='text-6xl font-bold text-white'>M.E.Ch.A. Goals</div>
+        <div className='text-xl text-center space-y-6 text-white'>
           <div>Unite Mexican American students and people into a responsive network to respond to prejudice and racism as a large unit</div>
           <div>Further socialization and politicization for liberation on all campuses</div>
           <div>Enhance study programs, curriculum development, entrance programs to welcome more Chicanos into college.</div>
@@ -115,27 +115,27 @@ export default function Home() {
         <div className='flex-col w-1/2 py-12 px-12 2xl:py-24 2xl:px-36 bg-orange-700 justify-center items-center space-y-6'>
           <div className='transition ease-in-out duration-500 hover:scale-110'>
             <div className="bg-[url('/img/asu.jpg')] bg-cover h-[360px] rounded-lg"></div>
-            <div className='flex justify-center items-center text-center font-bold'>MEChA at ASU.</div>
+            <div className='flex justify-center items-center text-center font-bold text-white'>MEChA at ASU.</div>
           </div>
 
           <div className='transition ease-in-out duration-500 hover:scale-110'>
             <div className="bg-[url('/img/uofu.jpg')] bg-cover h-[360px] rounded-lg"></div>
-            <div className='flex justify-center items-center text-center font-bold'>MEChA at UofU.</div>
+            <div className='flex justify-center items-center text-center font-bold text-white'>MEChA at UofU.</div>
           </div>
 
           <div className='transition ease-in-out duration-500 hover:scale-110'>
             <div className="bg-[url('/img/ucla.jpg')] bg-cover h-[360px] rounded-lg"></div>
-            <div className='flex justify-center items-center text-center font-bold'>MEChA at UCLA.</div>
+            <div className='flex justify-center items-center text-center font-bold text-white'>MEChA at UCLA.</div>
           </div>
           
         </div>
         
         <div className='flex-col h-screen w-1/2 bg-orange-900 p-24 py-16 2xl:px-48 2xl:py-36 space-y-12'>
-          <div className='text-4xl 2xl-text-5xl font-bold'>M.E.Ch.A. Activities</div>
+          <div className='text-4xl 2xl-text-5xl font-bold text-white'>M.E.Ch.A. Activities</div>
           <div className='flex-col space-y-6'>
-            <div className='text-xl 2xl-text-xl space-y-6'>
+            <div className='text-xl 2xl-text-xl space-y-6 text-white'>
                <div>Original general areas that M.E.Ch.A. involves:</div>
-               <div className='flex-col italic '>  
+               <div className='flex-col italic text-white'>  
                   <div>&quot;- Policy social and governmental agencies to make them more responsive to the poeple of the barrio</div>
                   <div>- Carry out research on the econmoic and credit policies of merchants in the barrio and expose fraudulent and exorbitant establishments</div>
                   <div>- Exchange with junior-high and high-school students, help with their projects, teach them organizational techniques, support their actions</div>
@@ -145,7 +145,7 @@ export default function Home() {
                </div>
                <div>Aside, M.E.Ch.A. also holds social meetings actively on many different campuses around the States. By this, Mexican American students are able to make friends and join the community.</div>
                <div>M.E.Ch.A. on each campus operates differently, but most of them often participate in activities such as: </div>
-               <div className='flex-col font-bold'>  
+               <div className='flex-col font-bold text-white'>  
                   <div>- Club Fairs</div>
                   <div>- Community Events</div>
                   <div>- National Conference</div>
@@ -157,17 +157,17 @@ export default function Home() {
       </div>
 
       <div className='flex-col flex w-full h-fit bg-orange-800 items-center py-24 px-48 2xl-py-36 2xl-px-96 space-y-12'>
-        <div className='text-5xl font-bold text-center'>Want to be a part of M.E.Ch.A.?</div>
-        <div className='flex-col text-center text-2xl space-y-2'>
+        <div className='text-5xl font-bold text-center text-white'>Want to be a part of M.E.Ch.A.?</div>
+        <div className='flex-col text-center text-2xl space-y-2 text-white'>
           <div>Reach out to M.E.Ch.A. if you have any interest or want to support and improve the organization as well as the Chicano community as a whole</div>
           <div>Your help is the big contribution to the bright future of Chicanos</div>
-          <div className='italic text-xl'>&quot;Of the community, for the community&quot;</div>
+          <div className='italic text-xl text-white'>&quot;Of the community, for the community&quot;</div>
         </div>
       </div>
 
       <div className='flex-col flex w-full h-fit bg-orange-900 items-center space-y-8 px-48 py-12'>
-        <div className='text-center text-2xl font-bold'>Work Cited</div>
-        <div className='text space-y-3'>
+        <div className='text-center text-2xl font-bold text-white'>Work Cited</div>
+        <div className='text space-y-3 text-white'>
           <div>Vargas Zaragosa. Major Problems in Mexican American History : Documents and Essays. Houghton Mifflin 1999.</div>
           <div>Valenzuela, Mónica. ME Ch. A.: A brief Southern California Chicana/o history, 1969-2010. Diss. California State University, Northridge, 2011.</div>
           <div>Estrada, Josue. “Mecha and Chicano Student Organizations 1967-2012.” MEChA and Chicano Student Organizations 1967-2012 - Mapping American Social Movements, depts.washington.edu/moves/MEChA_map.shtml. Accessed 2 Oct. 2023.</div>
@@ -180,7 +180,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='flex flex-col w-full h-fit bg-gray-800 justfiy-center items-center p-2'>
+      <div className='flex flex-col w-full h-fit bg-gray-800 justfiy-center items-center p-2 text-white'>
         <div className='text-center font-bold'>Final Project Presentation made by Nick Nguyen for HST-332</div>
       </div>
 
